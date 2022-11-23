@@ -55,19 +55,27 @@ let dog_names = ['Max', 'HAS', "PuRple", 'dog']
 // console.log(findWords())
 
 
-function findWords(dog_names) {
-    for (let word = console.log(dog_string.split(' ')))
-        {
-            if (dog_names = word) 
-        {
-            return `Matched name: ${dog_names}`
-        } else
-    {
-        return `No matches: ${dog_names}`
+// function findWords(dog_names) {
+//     for (let word = console.log(dog_string.split(' ')))
+//         {
+//             if (dog_names = word) 
+//         {
+//             return `Matched name: ${dog_names}`
+//         } else
+//     {
+//         return `No matches: ${dog_names}`
+//     }
+// }
+// }
+
+function findWords() {
+    if (dog_string.toLocaleLowerCase().includes(dog.toLowerCase())) {
+        console.log("Matched", dog);
+    } else {
+        console.log('No matches')
     }
 }
-}
-
+findWords(dog_string, dog_names)
 
 given_arr = ['Max', 'Baseball', 'Reboot', 'Goku', 'Trucks', 'Rodger']
 
