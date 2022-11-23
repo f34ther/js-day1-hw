@@ -58,7 +58,7 @@ let dog_names = ['Max', 'HAS', "PuRple", 'dog']
 // function findWords(dog_names) {
 //     for (let word = console.log(dog_string.split(' ')))
 //         {
-//             if (dog_names = word) 
+//             if (dog_names = word)
 //         {
 //             return `Matched name: ${dog_names}`
 //         } else
@@ -81,3 +81,72 @@ given_arr = ['Max', 'Baseball', 'Reboot', 'Goku', 'Trucks', 'Rodger']
 
 console.log(given_arr.splice(0, 1, 'even') && given_arr.splice(2, 1, 'even') && given_arr.splice(4, 1, 'even'))
 console.log(given_arr)
+
+
+//codewars problems
+// num = 3
+function square(num) {
+    return num ** 2
+}
+
+// sample test: const { assert } = require('chai');
+
+// describe("Tests", () => {
+//     it("test", () => {
+//       assert.strictEqual(square(3), 9);
+//     });
+//   });
+
+
+
+function mouthSize(animal) {
+    console.log(animal)
+    if (animal.toLowerCase() == 'alligator') {
+        return 'small'
+    } else {
+        return 'wide'
+    }
+}
+console.log(mouthSize('alligaTor'))
+/////////
+function switchItUp(number) {
+
+    if (number == 0) {
+        return 'Zero'
+    }
+    else if (number == 1) {
+        return 'One'
+    }
+    else if (number == 2) {
+        return 'Two'
+    }
+    else if (number == 3) {
+        return 'Three'
+    }
+    else if (number == 4) {
+        return 'Four'
+    }
+    else if (number == 5) {
+        return 'Five'
+    }
+    else if (number == 6) {
+        return 'Six'
+    }
+    else if (number == 7) {
+        return 'Seven'
+    }
+    else if (number == 8) {
+        return 'Eight'
+    }
+    else if (number == 9) {
+        return 'Nine'
+    }
+    else {
+        return number
+    }
+}
+
+/////
+function stringToArray(string) {
+    return string.split(' ')
+}
